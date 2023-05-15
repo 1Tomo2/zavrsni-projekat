@@ -1,0 +1,13 @@
+@import "base/mixin";
+@import "base/vars";
+@import "components/header";
+@import "components/heroSection";
+@import "components/mainSection";
+@import "components/footer";
+
+html {
+  font-family: $font;
+}
+body {
+  height: 100vh;
+}

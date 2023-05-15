@@ -1,0 +1,16 @@
+@mixin container {
+  width: 80%;
+  margin: 0 auto;
+}
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin boxPadding {
+  padding-top: 100px;
+}
+@mixin img {
+  width: 150px;
+  height: 200px;
+  margin-right: 30px;
+}

@@ -1,0 +1,40 @@
+footer {
+  background-color: $lightBlack;
+  position: relative;
+  top: -110px;
+  height: 25vh;
+  .container {
+    @include container;
+    .line {
+      width: 100%;
+      height: 3px;
+      background-color: $lineGray;
+      margin-bottom: 50px;
+    }
+    .flex {
+      @include flex;
+      #leftFooter {
+        svg {
+          color: $white;
+          position: relative;
+          bottom: 12px;
+          right: 5px;
+        }
+        h1 {
+          color: $white;
+          display: inline-block;
+        }
+      }
+      #middleFooter {
+        align-self: center;
+        color: $white;
+      }
+      #rightFooter {
+        svg {
+          width: 30px;
+          color: $white;
+        }
+      }
+    }
+  }
+}
