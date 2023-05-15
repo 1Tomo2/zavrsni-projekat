@@ -32,7 +32,7 @@ header .container .flex #leftHeader nav {
 header .container .flex #leftHeader nav ul {
   display: flex;
   justify-content: space-between;
-  gap: 90px;
+  gap: 80px;
 }
 header .container .flex #leftHeader nav ul li a {
   text-decoration: none;
