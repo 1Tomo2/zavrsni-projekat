@@ -24,7 +24,7 @@ header {
           display: inline-block;
           ul {
             @include flex;
-            gap: 30px;
+            gap: 90px;
             li {
               a {
                 text-decoration: none;
